@@ -1,24 +1,16 @@
-#include <iostream>
+#include <bits/stdc++.h> //Includes all the libraries
 
-using namespace std;
+using namespace std; //Time efficiency without having to write std with each instance
 
-int main()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+int main() {
+
+  ios::sync_with_stdio(0); // Syncing with scanf and printf is turned off for faster execution
+  cin.tie(0); //Must be added with the int main()
+
+    int w; //Declaring the weight of the watermelon
+    cin >> w; //Receiving inputs
     
-    int w;
+ (w%2 == 0 && w>2)? cout << "YES" : cout << "NO"; //Using a ternary operator to shorten the lines of code that need to obe written
 
-    cin >> w;
-
-    if (w > 2 && w % 2 == 0)
-    {
-        cout << "YES" << endl;
-    }
-
-    else
-    {
-        cout << "NO" << endl;
-    }
-    return 0;
+    return 0; //To verify if the code executed
 }
