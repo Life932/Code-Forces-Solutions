@@ -10,7 +10,7 @@ int main() {
     int w; //Declaring the weight of the watermelon
     cin >> w; //Receiving inputs
     
- (w%2 == 0 && w>2)? cout << "YES" : cout << "NO"; //Using a ternary operator to shorten the lines of code that need to obe written
+ (w%2 == 0 && w>2)? cout << "YES" : cout << "NO"; //Using a ternary operator to shorten the lines of code that need to be written
 
     return 0; //To verify if the code executed
 }
